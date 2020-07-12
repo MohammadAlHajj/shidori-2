@@ -8,7 +8,7 @@ import React from "react";
 
 // import PropTypes from 'prop-types';
 // import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
 	state = {
@@ -16,22 +16,21 @@ class App extends React.Component {
 	};
 
 	codes = {
-		1:"watched",
-		11:"all",
-		12:"reviewed",
-		13:"ost",
-		14:"op-ed",
-		2:"ongoinhg",
-		3:"high-priority",
-		4:"incomplete",
-		5:"on-hold",
-		6:"dropped",
-	}
+		1: "watched",
+		11: "all",
+		12: "reviewed",
+		13: "ost",
+		14: "op-ed",
+		2: "ongoinhg",
+		3: "high-priority",
+		4: "incomplete",
+		5: "on-hold",
+		6: "dropped",
+	};
 
 	order = [
 		"Title",
-		"Alt",
-		"Name",
+		"Alt-Name",
 		"CODE",
 		"Season",
 		"Episode",
@@ -55,31 +54,78 @@ class App extends React.Component {
 		"Filtered",
 	];
 
-
 	render() {
 		console.log(this.state.data);
 
 		// const { dispatch, visibleTodos } = this.props;
 		return (
-			<div class="container">
+			<div class="container container-natural-and-earthy">
 				<table>
 					<thead>
 						<tr>
-							{Object.keys(this.state.data[0]).map((colHead) => (
-								<th>{colHead}</th>
+							{this.state.order.map((colHead) => (
+								<th class={colHead.replace(" ", "-")}>{colHead}</th>
 							))}
 						</tr>
 					</thead>
 					<tbody>
 						{this.state.data.map((show) => (
 							<tr class={"code code-" + this.codes[show.CODE]}>
-								{Object.keys(show).map(key => {
-									if (key == this.order[0]) {
-										return <th>{show[key]}</th>;
+								{Object.keys(show).map((key) => {
+									if (key === "Title") {
+										return (
+											<th id="title" class="cs">
+												{show[key]}
+											</th>
+										);
+									} else if (key === "Code") {
+										return <td id="progress-code">{show[key]}</td>;
 									} else {
 										return <td>{show[key]}</td>;
 									}
 								})}
+
+								<td colSpan="3">
+									<th id="title" class="cs">
+										{show.Title}
+									</th>
+									<td id="alt-name">{show["Alt Name"]}</td>
+									<td id="progress-code" class="ce">
+										{show.CODE}
+									</td>
+								</td>
+
+								<td id="season" class="cs">
+									{show.Season}
+								</td>
+								<td id="episode">{show.Episode}</td>
+								<td id="resolution">{show.Resolution}</td>
+								<td id="rating">{show.Rating}</td>
+								<td id="Watched" class="ce">
+									{show.Watched}
+								</td>
+
+								{/* // "Season",
+										// "Episode",
+										// "Resolution",
+										// "Rating",
+										// "Watched",
+
+										// "Creator",
+										// "Producer",
+										// "Year",
+										// "Season__1",
+										// "Genre",
+										// "Subgenre",
+										// "Source",
+										// "link",
+										// "Review",
+										// "Clean",
+										// "Unclean",
+										// "Subbed",
+										// "Left",
+										// "Downloaded",
+										// "Filtered", */}
 							</tr>
 						))}
 					</tbody>
@@ -90,4 +136,3 @@ class App extends React.Component {
 }
 
 export default App;
-

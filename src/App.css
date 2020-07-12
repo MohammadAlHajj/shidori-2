@@ -4,6 +4,9 @@
 .container {
 	--td-radius: 5px;
 
+	--table-text-color: #e2e2e2;
+	--table-background-color: #141b2a;
+
 	--code-color-watched: #333333;
 	--code-color-all: #008000;
 	--code-color-reviewed: #e0ca00;
@@ -14,6 +17,15 @@
 	--code-color-incomplete: #000000;
 	--code-color-on-hold: #660066;
 	--code-color-dropped: #330033;
+}
+.container-natural-and-earthy {
+	--table-background-color: #565e70;
+
+	--code-color-all: #8d8741;
+	--code-color-reviewed: #fbeec1;
+	--code-color-op-ed: #659dbd;
+	--code-color-on-hold: #daad86;
+	--code-color-dropped: #bc986a;
 }
 /*
 .App-logo {
@@ -52,103 +64,107 @@
 } */
 
 table {
-	color: #e2e2e2;
-	background-color: #141b2a;
+	color: var(--table-text-color);
+	background-color: var(--table-background-color);
 	padding: 10px;
 	width: 100%;
+	/* box-shadow: 3px 5px 3px 5px rgba(0, 0, 0, 0.2); */
 }
-table th {
-  position: sticky;
-  background-color: inherit;
-  top: 0;
-  z-index: 2;
+table tr {
+	background-color: inherit;
+
 }
-table th,
-table td {
+table thead th {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	text-align: left;
+	background-color: var(--table-background-color);
+}
+table tbody td {
 	text-align: center;
 }
 
 table tbody tr {
-	background-color: #1c223b;
+	/* background-color: #1c223b; */
+	background-color: inherit;
 }
 
-table tbody tr:hover {
-	background-color: #151b31;
+table tbody tr:hover th,
+table tbody tr:hover td {
+	background-color: rgb(59, 67, 95);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-table tbody tr td:first-of-type {
+/* table tbody th {
+	position: sticky;
+	left: 0;
+	background-color: inherit;
+	z-index: 1;
+} */
+
+table tbody tr :first-child {
+	position: sticky;
+	left: 0;
+	z-index: 1;
+	background-color: var(--table-background-color);
+	text-align: start;
+	padding-left: 5px;
 	border-top-left-radius: var(--td-radius);
 	border-bottom-left-radius: var(--td-radius);
-	position: sticky;
-  left: 0;
-    background-color: inherit;
-
-  z-index: 1
 }
 
-table tbody tr td:last-of-type {
+table tbody tr:last-child {
 	border-top-right-radius: var(--td-radius);
 	border-bottom-right-radius: var(--td-radius);
 }
 
-table tbody tr.code td:first-of-type {
+table tbody tr.code .cs,
+table tbody tr.code .ce {
 	border-left: 5px solid whitesmoke;
 }
-table tbody tr.code-watched td:first-of-type {
+table tbody tr.code-watched .cs,
+table tbody tr.code-watched .ce {
 	border-left: 5px solid var(--code-color-watched);
 }
-table tbody tr.code-all td:first-of-type {
+table tbody tr.code-all .cs,
+table tbody tr.code-all .ce {
 	border-left: 5px solid var(--code-color-all);
 }
-table tbody tr.code-reviewed td:first-of-type {
+table tbody tr.code-reviewed .cs,
+table tbody tr.code-reviewed .ce {
 	border-left: 5px solid var(--code-color-reviewed);
 }
-table tbody tr.code-ost td:first-of-type {
+table tbody tr.code-ost .cs,
+table tbody tr.code-ost .ce {
 	border-left: 5px solid var(--code-color-ost);
 }
-table tbody tr.code-op-ed td:first-of-type {
+table tbody tr.code-op-ed .cs,
+table tbody tr.code-op-ed .ce {
 	border-left: 5px solid var(--code-color-op-ed);
 }
-table tbody tr.code-ongoinhg td:first-of-type {
+table tbody tr.code-ongoinhg .cs,
+table tbody tr.code-ongoinhg .ce {
 	border-left: 5px solid var(--code-color-ongoinhg);
 }
-table tbody tr.code-high-priority td:first-of-type {
+table tbody tr.code-high-priority .cs,
+table tbody tr.code-high-priority .ce {
 	border-left: 5px solid var(--code-color-high-priority);
 }
-table tbody tr.code-incomplete td:first-of-type {
+table tbody tr.code-incomplete .cs,
+table tbody tr.code-incomplete .ce {
 	border-left: 5px solid var(--code-color-incomplete);
 }
-table tbody tr.code-on-hold td:first-of-type {
+table tbody tr.code-on-hold .cs,
+table tbody tr.code-on-hold .ce {
 	border-left: 5px solid var(--code-color-on-hold);
 }
-table tbody tr.code-dropped td:first-of-type {
+table tbody tr.code-dropped .cs,
+table tbody tr.code-dropped .ce {
 	border-left: 5px solid var(--code-color-dropped);
 }
-/* 
-table tbody tr.code td {
-	border-left: 5px solid whitesmoke;
-}table tbody tr.code-watched td {
-	border-left: 5px solid var(--code-color-watched);
-}table tbody tr.code-all td {
-	border-left: 5px solid var(--code-color-all);
-}table tbody tr.code-reviewed td {
-	border-left: 5px solid var(--code-color-reviewed);
-}table tbody tr.code-ost td {
-	border-left: 5px solid var(--code-color-ost);
-}table tbody tr.code-op-ed td {
-	border-left: 5px solid var(--code-color-op-ed);
-}table tbody tr.code-ongoinhg td {
-	border-left: 5px solid var(--code-color-ongoinhg);
-}table tbody tr.code-high-priority td {
-	border-left: 5px solid var(--code-color-high-priority);
-}table tbody tr.code-incomplete td {
-	border-left: 5px solid var(--code-color-incomplete);
-}table tbody tr.code-on-hold td {
-	border-left: 5px solid var(--code-color-on-hold);
-}table tbody tr.code-dropped td {
-	border-left: 5px solid var(--code-color-dropped);
-} */
+table 
+
 
 .App {
 	text-align: center;
@@ -166,7 +182,7 @@ table tbody tr.code td {
 }
 
 .App-header {
-	background-color: #282c34;
+	/* background-color: #282c34; */
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
