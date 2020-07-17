@@ -2,12 +2,15 @@
 	text-align: center;
 }
 .container {
-	--td-radius: 5px;
+	--td-radius: 4px;
 
 	--table-text-color: #e2e2e2;
-	--table-background-color: #141b2a;
+	--table-background-light-color: #7e7e7e;
+	--table-background-color: #6d6d6d;
+	--table-background-dark-color: #bb4444a1;
+	--table-h-border-color: rgba(255, 255, 255, 0.1);
 
-	--code-color-watched: #333333;
+	--code-color-watched: #555555;
 	--code-color-all: #008000;
 	--code-color-reviewed: #e0ca00;
 	--code-color-ost: #006666;
@@ -19,7 +22,11 @@
 	--code-color-dropped: #330033;
 }
 .container-natural-and-earthy {
-	--table-background-color: #565e70;
+	--table-background-light-color: #646c81;
+	--table-background-color: #535c72;
+	--table-background-dark-color: #434c5f;
+
+	--table-text-color: white;
 
 	--code-color-all: #8d8741;
 	--code-color-reviewed: #fbeec1;
@@ -27,89 +34,70 @@
 	--code-color-on-hold: #daad86;
 	--code-color-dropped: #bc986a;
 }
-/*
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
-}
-
-.App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-
-.App-link {
-	color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-} */
 
 table {
 	color: var(--table-text-color);
 	background-color: var(--table-background-color);
-	padding: 10px;
+	padding: 5px;
 	width: 100%;
+	/* border-spacing: 10px; */
 	/* box-shadow: 3px 5px 3px 5px rgba(0, 0, 0, 0.2); */
+	/* border-collapse: collapse; */
 }
-table tr {
-	background-color: inherit;
 
+td , th {
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 5px;
 }
+td {
+	font-weight: bold;
+}
+
+/* table thead { */
 table thead th {
 	position: sticky;
 	top: 0;
 	z-index: 2;
+	background-color: var(--table-background-light-color);
+
+	padding: 1px 3px;
+}
+table thead {
+/* table thead :first-child  { */
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 3;
 	text-align: left;
+}
+
+/* table tbody td,
+table tbody th {
+	border-bottom: 1px ridge var(--table-h-border-color);
+} */
+
+table tbody tr:nth-child(even){
+	background-color: var(--table-background-light-color);
+}
+table tbody tr:nth-child(odd){
 	background-color: var(--table-background-color);
 }
-table tbody td {
-	text-align: center;
-}
 
-table tbody tr {
-	/* background-color: #1c223b; */
-	background-color: inherit;
-}
-
-table tbody tr:hover th,
-table tbody tr:hover td {
-	background-color: rgb(59, 67, 95);
+table tbody tr:hover {
+	background-color: var(--table-background-dark-color);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* table tbody th {
-	position: sticky;
-	left: 0;
-	background-color: inherit;
-	z-index: 1;
-} */
 
 table tbody tr :first-child {
 	position: sticky;
 	left: 0;
-	z-index: 1;
-	background-color: var(--table-background-color);
+	/* z-index: 1; */
+	background-color: inherit;
+	border-bottom: inherit;
 	text-align: start;
-	padding-left: 5px;
 	border-top-left-radius: var(--td-radius);
 	border-bottom-left-radius: var(--td-radius);
 }
@@ -163,10 +151,8 @@ table tbody tr.code-dropped .cs,
 table tbody tr.code-dropped .ce {
 	border-left: 5px solid var(--code-color-dropped);
 }
-table 
-
-
-.App {
+/* 
+table .App {
 	text-align: center;
 }
 
@@ -182,7 +168,7 @@ table
 }
 
 .App-header {
-	/* background-color: #282c34; */
+	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -203,4 +189,4 @@ table
 	to {
 		transform: rotate(360deg);
 	}
-}
+} */

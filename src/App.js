@@ -9,6 +9,8 @@ import React from "react";
 // import PropTypes from 'prop-types';
 // import logo from './logo.svg';
 import "./App.css";
+import { getAllPossibleAnimeFromList } from "./MAL-Extractor-js/mal-extractor";
+import Popup from "./components/Popup";
 
 class App extends React.Component {
 	state = {
@@ -30,7 +32,7 @@ class App extends React.Component {
 
 	order = [
 		"Title",
-		"Alt-Name",
+		"Alt Name",
 		"CODE",
 		"Season",
 		"Episode",
@@ -55,77 +57,82 @@ class App extends React.Component {
 	];
 
 	render() {
-		console.log(this.state.data);
+		// console.log(this.state.data);
+		// getAllPossibleAnimeFromList([
+		// 	"91 Days",
+		// 	"A Certain Magical Index",
+		// 	"A Certain Scientific Railgun",
+		// ]);
 
+		var showPopup = true
 		// const { dispatch, visibleTodos } = this.props;
 		return (
-			<div class="container container-natural-and-earthy">
+			// container-natural-and-earthy
+			<div className="container ">
+				{/* {showPopup && <Popup />} */}
+				<Popup />
 				<table>
 					<thead>
 						<tr>
-							{this.state.order.map((colHead) => (
-								<th class={colHead.replace(" ", "-")}>{colHead}</th>
+							<th colSpan="2">Name</th>
+							<th colSpan="1"></th>
+							<th colSpan="5">Personal Reference</th>
+							<th colSpan="8">Release Info</th>
+							<th colSpan="1"></th>
+							<th colSpan="4">Opening and Ending</th>
+							<th colSpan="2">OST Download</th>
+						</tr>
+						<tr>
+							{this.order.map((colHead) => (
+								<th className={colHead.replace(" ", "-")}>{colHead}</th>
 							))}
 						</tr>
 					</thead>
 					<tbody>
 						{this.state.data.map((show) => (
-							<tr class={"code code-" + this.codes[show.CODE]}>
-								{Object.keys(show).map((key) => {
-									if (key === "Title") {
-										return (
-											<th id="title" class="cs">
-												{show[key]}
-											</th>
+							<tr className={"code code-" + this.codes[show.CODE]}>
+								{this.order.map((key, i) => {
+									var tag = "td";
+									// var classProp = ' class="' + key.replace(" ", "-");
+									var classProp = key.replace(" ", "-");
+									var colSpan = 1;
+									var content = show[key];
+									var style = {}
+
+									if (key.toLowerCase() === "title") {
+										tag = "th";
+										classProp += " cs";
+									} else if (key.toLowerCase() === "season") {
+										classProp += " cs";
+										if (show.Season === "COM" || show.Episode === "") {
+											colSpan = 2
+										}
+									} else if (key.toLowerCase() === "episode") {
+										if (show.Season === "COM" || show.Episode === "" || show.Episode ==="COM") {
+											style = { display: "none" };
+										}
+									} else if (key.toLowerCase() === "creator") {
+										classProp += " cs";
+									} else if (key.toLowerCase() === "link") {
+										// todo fix broken link
+										content = (
+											<a href={show[key]}>{show[key] ? "MAL_link" : ""}</a>
 										);
-									} else if (key === "Code") {
-										return <td id="progress-code">{show[key]}</td>;
-									} else {
-										return <td>{show[key]}</td>;
+									} else if (key.toLowerCase() === "review") {
+										classProp += " cs";
+									} else if (key.toLowerCase() === "clean") {
+										classProp += " cs";
+									} else if (key.toLowerCase() === "downloaded") {
+										classProp += " cs";
 									}
+
+									var props = {
+										className: classProp,
+										colSpan,
+										style,
+									};
+									return React.createElement(tag, props, content);
 								})}
-
-								<td colSpan="3">
-									<th id="title" class="cs">
-										{show.Title}
-									</th>
-									<td id="alt-name">{show["Alt Name"]}</td>
-									<td id="progress-code" class="ce">
-										{show.CODE}
-									</td>
-								</td>
-
-								<td id="season" class="cs">
-									{show.Season}
-								</td>
-								<td id="episode">{show.Episode}</td>
-								<td id="resolution">{show.Resolution}</td>
-								<td id="rating">{show.Rating}</td>
-								<td id="Watched" class="ce">
-									{show.Watched}
-								</td>
-
-								{/* // "Season",
-										// "Episode",
-										// "Resolution",
-										// "Rating",
-										// "Watched",
-
-										// "Creator",
-										// "Producer",
-										// "Year",
-										// "Season__1",
-										// "Genre",
-										// "Subgenre",
-										// "Source",
-										// "link",
-										// "Review",
-										// "Clean",
-										// "Unclean",
-										// "Subbed",
-										// "Left",
-										// "Downloaded",
-										// "Filtered", */}
 							</tr>
 						))}
 					</tbody>

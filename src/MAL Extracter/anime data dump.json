@@ -1,0 +1,886 @@
+{
+  "Coffin Princess Chika": [
+    {
+      "rank": 2206,
+      "status": "Finished Airing",
+      "popularity": 378,
+      "request_cached": true,
+      "opening_themes": [
+        "\"DARAKENA\" by Iori Nomizu"
+      ],
+      "title": "Hitsugi no Chaika",
+      "mal_id": 20853,
+      "aired": {
+        "to": "2014-06-26T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 6,
+            "day": 26,
+            "year": 2014
+          },
+          "from": {
+            "month": 4,
+            "day": 10,
+            "year": 2014
+          }
+        },
+        "string": "Apr 10, 2014 to Jun 26, 2014",
+        "from": "2014-04-10T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/4/61781.jpg",
+      "scored_by": 128130,
+      "episodes": 12,
+      "score": 7.34,
+      "url": "https://myanimelist.net/anime/20853/Hitsugi_no_Chaika",
+      "genres": [
+        {
+          "name": "Action",
+          "mal_id": 1,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "mal_id": 2,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "mal_id": 4,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Romance",
+          "mal_id": 22,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        },
+        {
+          "name": "Fantasy",
+          "mal_id": 10,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "broadcast": "Thursdays at 01:05 (JST)",
+      "trailer_url": "https://www.youtube.com/embed/jO7eXXIt8fA?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 273564,
+      "source": "Light novel",
+      "producers": [
+        {
+          "name": "Kadokawa Shoten",
+          "mal_id": 113,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/113/Kadokawa_Shoten"
+        },
+        {
+          "name": "flying DOG",
+          "mal_id": 464,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/464/flying_DOG"
+        },
+        {
+          "name": "Fujimi Shobo",
+          "mal_id": 1664,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/1664/Fujimi_Shobo"
+        }
+      ],
+      "title_japanese": "\u68fa\u59eb\u306e\u30c1\u30e3\u30a4\u30ab",
+      "premiered": "Spring 2014",
+      "licensors": [
+        {
+          "name": "Sentai Filmworks",
+          "mal_id": 376,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "favorites": 720,
+      "synopsis": "For 500 years, the Taboo Emperor, Arthur Gaz, ruled the Gaz Empire with an iron fist and conducted inhumane experiments on his own people. But his reign came to an end five years ago, when mighty warriors\u2014later known as the Eight Heroes\u2014defeated him in a battle for the capital. His death ended the 300-yearlong war between the Gaz Empire and the alliance of six nations. In the present day, Tooru Acura is a former saboteur from the war who has difficulty settling into the peaceful world, as he cannot find a job where he can put his fighting skills to use. An opportunity appears before him, however, when he meets a white-haired Wizard named Chaika Trabant. With a coffin on her back, she is searching for the scattered remains of her father in order to give him a proper burial, and she hires Tooru and his adoptive sister Akari to help her. However, the six nations alliance, which have now formed the Council of Six Nations, dispatches Alb\u00e9ric Gillette and his men from the Kleeman Agency to pursue and apprehend the late Emperor Gaz's daughter\u2014Chaika. With the shocking revelation of Chaika's identity, the Acura siblings must choose between helping her gather the remains of the tyrannical emperor and upholding the peace the continent strives to maintain. [Written by MAL Rewrite]",
+      "request_hash": "request:anime:6bdfeb5fbcb13d66505b8fd0885b1d7a4ea94756",
+      "type": "TV",
+      "duration": "24 min per ep",
+      "studios": [
+        {
+          "name": "Bones",
+          "mal_id": 4,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/4/Bones"
+        }
+      ],
+      "rating": "R - 17+ (violence & profanity)",
+      "title_english": "Chaika -The Coffin Princess-",
+      "background": "Hitsugi no Chaika adapts the first 6 novels of Ichirou Sakaki's light novel series of the same name, while utilizing original content for the 8th and 9th episode.",
+      "title_synonyms": [
+        "Hitsugi no Chaika"
+      ],
+      "request_cache_expiry": 64428,
+      "related": {
+        "Side story": [
+          {
+            "name": "Hitsugi no Chaika OVA",
+            "mal_id": 24261,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/24261/Hitsugi_no_Chaika_OVA"
+          }
+        ],
+        "Adaptation": [
+          {
+            "name": "Hitsugi no Chaika",
+            "mal_id": 32831,
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/32831/Hitsugi_no_Chaika"
+          }
+        ],
+        "Sequel": [
+          {
+            "name": "Hitsugi no Chaika: Avenging Battle",
+            "mal_id": 24231,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/24231/Hitsugi_no_Chaika__Avenging_Battle"
+          }
+        ]
+      },
+      "ending_themes": [
+        "\"Kairaku Genri (\u5feb\u697d\u539f\u7406)\" by coffin princess (CV: Chika Anzai, Saeko Zougou, Yui Makino)"
+      ],
+      "airing": false
+    },
+    {
+      "rank": 2548,
+      "status": "Finished Airing",
+      "popularity": 781,
+      "request_cached": true,
+      "opening_themes": [
+        "\"Shikkoku wo Nuritsubuse (\u6f06\u9ed2\u3092\u5857\u308a\u3064\u3076\u305b)\" by Iori Nomizu"
+      ],
+      "title": "Hitsugi no Chaika: Avenging Battle",
+      "mal_id": 24231,
+      "aired": {
+        "to": "2014-12-11T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 12,
+            "day": 11,
+            "year": 2014
+          },
+          "from": {
+            "month": 10,
+            "day": 9,
+            "year": 2014
+          }
+        },
+        "string": "Oct 9, 2014 to Dec 11, 2014",
+        "from": "2014-10-09T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/3/67797.jpg",
+      "scored_by": 82110,
+      "episodes": 10,
+      "score": 7.26,
+      "url": "https://myanimelist.net/anime/24231/Hitsugi_no_Chaika__Avenging_Battle",
+      "genres": [
+        {
+          "name": "Action",
+          "mal_id": 1,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "mal_id": 2,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "mal_id": 4,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Romance",
+          "mal_id": 22,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        },
+        {
+          "name": "Fantasy",
+          "mal_id": 10,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "broadcast": "Thursdays at 01:05 (JST)",
+      "trailer_url": "https://www.youtube.com/embed/coQHwcwW8Ao?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 149644,
+      "source": "Light novel",
+      "producers": [
+        {
+          "name": "Kadokawa Shoten",
+          "mal_id": 113,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/113/Kadokawa_Shoten"
+        },
+        {
+          "name": "flying DOG",
+          "mal_id": 464,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/464/flying_DOG"
+        },
+        {
+          "name": "Fujimi Shobo",
+          "mal_id": 1664,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/1664/Fujimi_Shobo"
+        }
+      ],
+      "title_japanese": "\u68fa\u59eb\u306e\u30c1\u30e3\u30a4\u30ab AVENGING BATTLE",
+      "premiered": "Fall 2014",
+      "licensors": [
+        {
+          "name": "Sentai Filmworks",
+          "mal_id": 376,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "favorites": 164,
+      "synopsis": "The search for the remains of Emperor Gaz continues. Chaika still in search of knowing who she really is and what her purpose is. Similarly, the Red Chaika continues the search for the rest of Emperor Gaz's remains. The Gillette corporation continues the mission to catch every last Chaika. In their adventure they give a revealing account kept secret by the Emperor, which Chaika, Fredrica, Toru, and Akari decide to uncover. (Source: ANN, edited)",
+      "request_hash": "request:anime:9f136ade3ba774a52872778b82bcbf81fb24948d",
+      "type": "TV",
+      "duration": "23 min per ep",
+      "studios": [
+        {
+          "name": "Bones",
+          "mal_id": 4,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/4/Bones"
+        }
+      ],
+      "rating": "R - 17+ (violence & profanity)",
+      "title_english": "Chaika -The Coffin Princess- Avenging Battle",
+      "background": "Hitsugi no Chaika: Avenging Battle mostly tells an anime-exclusive story that utilizes content from novels 8 to 11 of the original novel series. Episodes 4 and 5 adapt the 7th novel.",
+      "title_synonyms": [
+        "Hitsugi no Chaika 2nd Season",
+        "Hitsugi no Chaika Second Season"
+      ],
+      "request_cache_expiry": 86400,
+      "related": {
+        "Side story": [
+          {
+            "name": "Hitsugi no Chaika OVA",
+            "mal_id": 24261,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/24261/Hitsugi_no_Chaika_OVA"
+          }
+        ],
+        "Adaptation": [
+          {
+            "name": "Hitsugi no Chaika",
+            "mal_id": 32831,
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/32831/Hitsugi_no_Chaika"
+          }
+        ],
+        "Prequel": [
+          {
+            "name": "Hitsugi no Chaika",
+            "mal_id": 20853,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/20853/Hitsugi_no_Chaika"
+          }
+        ]
+      },
+      "ending_themes": [
+        "\"Watashi wa Omae no Naka ni Iru (\u30ef\u30bf\u30b7\u30cf\u30aa\u30de\u30a8\u30ce\u30ca\u30ab\u30cb\u30a4\u30eb)\" by coffin princess (Chika Anzai, Saeko Zougou, Iori Nomizu)"
+      ],
+      "airing": false
+    }
+  ],
+  "Death parade": [
+    {
+      "rank": 303,
+      "status": "Finished Airing",
+      "popularity": 48,
+      "request_cached": true,
+      "opening_themes": [
+        "\"Flyers\" by BRADIO"
+      ],
+      "title": "Death Parade",
+      "mal_id": 28223,
+      "aired": {
+        "to": "2015-03-28T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 3,
+            "day": 28,
+            "year": 2015
+          },
+          "from": {
+            "month": 1,
+            "day": 10,
+            "year": 2015
+          }
+        },
+        "string": "Jan 10, 2015 to Mar 28, 2015",
+        "from": "2015-01-10T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/5/71553.jpg",
+      "scored_by": 519213,
+      "episodes": 12,
+      "score": 8.22,
+      "url": "https://myanimelist.net/anime/28223/Death_Parade",
+      "genres": [
+        {
+          "name": "Game",
+          "mal_id": 11,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/11/Game"
+        },
+        {
+          "name": "Mystery",
+          "mal_id": 7,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "name": "Psychological",
+          "mal_id": 40,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/40/Psychological"
+        },
+        {
+          "name": "Drama",
+          "mal_id": 8,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "name": "Thriller",
+          "mal_id": 41,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/41/Thriller"
+        }
+      ],
+      "broadcast": "Saturdays at 01:58 (JST)",
+      "trailer_url": "https://www.youtube.com/embed/O1X6czI74UQ?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 918665,
+      "source": "Original",
+      "producers": [
+        {
+          "name": "VAP",
+          "mal_id": 29,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/29/VAP"
+        },
+        {
+          "name": "DAX Production",
+          "mal_id": 315,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/315/DAX_Production"
+        },
+        {
+          "name": "Nippon Television Network",
+          "mal_id": 1003,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/1003/Nippon_Television_Network"
+        }
+      ],
+      "title_japanese": "\u30c7\u30b9\u30fb\u30d1\u30ec\u30fc\u30c9",
+      "premiered": "Winter 2015",
+      "licensors": [
+        {
+          "name": "Funimation",
+          "mal_id": 102,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "favorites": 17449,
+      "synopsis": "After death, there is no heaven or hell, only a bar that stands between reincarnation and oblivion. There the attendant will, one after another, challenge pairs of the recently deceased to a random game in which their fate of either ascending into reincarnation or falling into the void will be wagered. Whether it's bowling, darts, air hockey, or anything in between, each person's true nature will be revealed in a ghastly parade of death and memories, dancing to the whims of the bar's master. Welcome to Quindecim, where Decim, arbiter of the afterlife, awaits! Death Parade expands upon the original one-shot intended to train young animators. It follows yet more people receiving judgment\u2014until a strange, black-haired guest causes Decim to begin questioning his own rulings. [Written by MAL Rewrite]",
+      "request_hash": "request:anime:4adb048bcf0d54c128a37d165bfb122588163869",
+      "type": "TV",
+      "duration": "23 min per ep",
+      "studios": [
+        {
+          "name": "Madhouse",
+          "mal_id": 11,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+        }
+      ],
+      "rating": "R - 17+ (violence & profanity)",
+      "title_english": "Death Parade",
+      "background": "Death Parade spawned from the short film Death Billiards, which was part of the Young Animator Training Project's Anime Mirai 2013.",
+      "title_synonyms": [],
+      "request_cache_expiry": 41721,
+      "related": {
+        "Alternative version": [
+          {
+            "name": "Death Billiards",
+            "mal_id": 14353,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/14353/Death_Billiards"
+          }
+        ]
+      },
+      "ending_themes": [
+        "\"Last Theater\" by NoisyCell"
+      ],
+      "airing": false
+    }
+  ],
+  "D gray man": [
+    {
+      "rank": 429,
+      "status": "Finished Airing",
+      "popularity": 149,
+      "request_cached": true,
+      "opening_themes": [
+        "\"INNOCENT SORROW\" by abingdon boys school  (eps 1-25)",
+        "\"Brightdown\" by Tamaki Nami (eps 26-51)",
+        "\"Doubt & Trust\" by access (eps 52-76)",
+        "\"Gekidou\" by UVERworld (eps 77-103)"
+      ],
+      "title": "D.Gray-man",
+      "mal_id": 1482,
+      "aired": {
+        "to": "2008-09-30T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 9,
+            "day": 30,
+            "year": 2008
+          },
+          "from": {
+            "month": 10,
+            "day": 3,
+            "year": 2006
+          }
+        },
+        "string": "Oct 3, 2006 to Sep 30, 2008",
+        "from": "2006-10-03T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/13/75194.jpg",
+      "scored_by": 197534,
+      "episodes": 103,
+      "score": 8.09,
+      "url": "https://myanimelist.net/anime/1482/DGray-man",
+      "genres": [
+        {
+          "name": "Action",
+          "mal_id": 1,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "mal_id": 2,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Comedy",
+          "mal_id": 4,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "name": "Super Power",
+          "mal_id": 31,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        },
+        {
+          "name": "Demons",
+          "mal_id": 6,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/6/Demons"
+        },
+        {
+          "name": "Shounen",
+          "mal_id": 27,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ],
+      "broadcast": "Tuesdays at 18:00 (JST)",
+      "trailer_url": "https://www.youtube.com/embed/GIOe6KZrHBA?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 508411,
+      "source": "Manga",
+      "producers": [
+        {
+          "name": "TV Tokyo",
+          "mal_id": 16,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        },
+        {
+          "name": "Aniplex",
+          "mal_id": 17,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "name": "Dentsu",
+          "mal_id": 53,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
+          "name": "Half H.P Studio",
+          "mal_id": 213,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/213/Half_HP_Studio"
+        },
+        {
+          "name": "Sony Music Entertainment",
+          "mal_id": 757,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/757/Sony_Music_Entertainment"
+        },
+        {
+          "name": "Studio Jack",
+          "mal_id": 829,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/829/Studio_Jack"
+        }
+      ],
+      "title_japanese": "\u30c7\u30a3\u30fc\u30fb\u30b0\u30ec\u30a4\u30de\u30f3",
+      "premiered": "Fall 2006",
+      "licensors": [
+        {
+          "name": "Funimation",
+          "mal_id": 102,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "favorites": 13267,
+      "synopsis": "Losing a loved one is so painful that one may sometimes wish to be able to resurrect them\u2014a weakness that the enigmatic Millennium Earl exploits. To make his mechanical weapons known as \"Akuma,\" he uses the souls of the dead that are called back. Once a soul is placed in an Akuma, it is trapped forever, and the only way to save them is to exorcise them from their vessel using the Anti-Akuma weapon, \"Innocence.\" After spending three years as the disciple of General Cross, Allen Walker is sent to the Black Order\u2014an organization comprised of those willing to fight Akuma and the Millennium Earl\u2014to become an official Exorcist. With an arm as his Innocence and a cursed eye that can see the suffering souls within an Akuma, it's up to Allen and his fellow Exorcists to stop the Millennium Earl's ultimate plot: one that can lead to the destruction of the world. [Written by MAL Rewrite]",
+      "request_hash": "request:anime:3ea19f2817a32af21c7df21e71e4e12da071f9cc",
+      "type": "TV",
+      "duration": "23 min per ep",
+      "studios": [
+        {
+          "name": "TMS Entertainment",
+          "mal_id": 73,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+        }
+      ],
+      "rating": "PG-13 - Teens 13 or older",
+      "title_english": "D.Gray-man",
+      "background": "D.Gray-man is based on Katsura Hoshino's manga series of the same title. The anime adapts the first 158 chapters from the first 16 volumes, while adding anime exclusive content, mainly during the first half of the series.\r\nFUNimation Entertainment licensed and released only the first 51 episodes of D.Gray-man. The explanation they provided for not acquiring the remaining episodes was that there were licensing issues with Dentsu. However, on June 30, 2016, it was announced that Funimation acquired the rights the second half of the anime.",
+      "title_synonyms": [
+        "D. Gray-man",
+        "D. Grey-man"
+      ],
+      "request_cache_expiry": 8172,
+      "related": {
+        "Adaptation": [
+          {
+            "name": "D.Gray-man",
+            "mal_id": 24,
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/24/DGray-man"
+          }
+        ],
+        "Sequel": [
+          {
+            "name": "D.Gray-man Hallow",
+            "mal_id": 32370,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/32370/DGray-man_Hallow"
+          }
+        ]
+      },
+      "ending_themes": [
+        "\"Snow Kiss\" by NIRGILIS (eps 1-13)",
+        "\"Pride of Tomorrow\" by JUNE (eps 14-25)",
+        "\"Yume no Tsuduki e\" by surface (eps 26-38)",
+        "\"Antoinette Blue\" by Kitade Nana (eps 39-51)",
+        "\"Anata ga Koko ni Iru Riyuu\" by Rie fu (eps 52-64)",
+        "\"Wish\" by Sowelu (eps 65-76)",
+        "\"Regret\" by Hoshimura Mai (eps 77-89)",
+        "\"Changin'\" by Stephanie (eps 90-103)"
+      ],
+      "airing": false
+    },
+    {
+      "rank": 805,
+      "status": "Finished Airing",
+      "popularity": 862,
+      "request_cached": true,
+      "opening_themes": [
+        "\"Key -bring it on, my Destiny-\" by Lenny code fiction"
+      ],
+      "title": "D.Gray-man Hallow",
+      "mal_id": 32370,
+      "aired": {
+        "to": "2016-09-27T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 9,
+            "day": 27,
+            "year": 2016
+          },
+          "from": {
+            "month": 7,
+            "day": 5,
+            "year": 2016
+          }
+        },
+        "string": "Jul 5, 2016 to Sep 27, 2016",
+        "from": "2016-07-05T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/12/80766.jpg",
+      "scored_by": 53773,
+      "episodes": 13,
+      "score": 7.82,
+      "url": "https://myanimelist.net/anime/32370/DGray-man_Hallow",
+      "genres": [
+        {
+          "name": "Action",
+          "mal_id": 1,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Adventure",
+          "mal_id": 2,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "name": "Super Power",
+          "mal_id": 31,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+        },
+        {
+          "name": "Demons",
+          "mal_id": 6,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/6/Demons"
+        },
+        {
+          "name": "Shounen",
+          "mal_id": 27,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ],
+      "broadcast": "Tuesdays at 01:35 (JST)",
+      "trailer_url": "https://www.youtube.com/embed/WTS94iHIH5o?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 136965,
+      "source": "Manga",
+      "producers": [
+        {
+          "name": "TV Tokyo",
+          "mal_id": 16,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+        },
+        {
+          "name": "Aniplex",
+          "mal_id": 17,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "name": "Dentsu",
+          "mal_id": 53,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
+          "name": "Shueisha",
+          "mal_id": 1365,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        }
+      ],
+      "title_japanese": "\u30c7\u30a3\u30fc\u30fb\u30b0\u30ec\u30a4\u30de\u30f3 \u30cf\u30ed\u30fc",
+      "premiered": "Summer 2016",
+      "licensors": [
+        {
+          "name": "Funimation",
+          "mal_id": 102,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "favorites": 1095,
+      "synopsis": "Despite the recent Akuma attack, the members of the Black Order are in high spirits as they set about moving to a new base. Immediately upon his arrival, however, Allen Walker is suddenly called by the Central Agency and has his arm forcefully sealed by the Order. He is then led to a surprising meeting with his master, General Cross Marian, who reveals staggering secrets surrounding the enigmatic 14th Noah. A phantom thief incident, the arrival of a mysterious group of Exorcists, the death of an important comrade, and an all-out battle against the Noah Family\u2014just what does this mean for Allen, Yuu Kanda, and the rest of the Order? This is but the beginning of a series of strange, seemingly unconnected events that lead to something far greater. [Written by MAL Rewrite]",
+      "request_hash": "request:anime:8065a16c72dfb933469c6577a39da7139f86bc6d",
+      "type": "TV",
+      "duration": "24 min per ep",
+      "studios": [
+        {
+          "name": "TMS Entertainment",
+          "mal_id": 73,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+        }
+      ],
+      "rating": "R - 17+ (violence & profanity)",
+      "title_english": "D.Gray-man HALLOW",
+      "background": "D.Gray-man Hallow is based on Katsura Hoshino's manga series of the same title and adapts chapters 165 to 208 from the 17th to 23rd volumes. \r\nThe anime was not released on Blu-ray or DVD. The first volumes were scheduled to start release in September 2016, but were indefinitely delayed to improve their quality. The release was later cancelled in March 2017.",
+      "title_synonyms": [],
+      "request_cache_expiry": 86400,
+      "related": {
+        "Adaptation": [
+          {
+            "name": "D.Gray-man",
+            "mal_id": 24,
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/24/DGray-man"
+          }
+        ],
+        "Prequel": [
+          {
+            "name": "D.Gray-man",
+            "mal_id": 1482,
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/1482/DGray-man"
+          }
+        ]
+      },
+      "ending_themes": [
+        "\"Lotus Pain\" by Mashiro Ayano"
+      ],
+      "airing": false
+    }
+  ],
+  "devil may cry": [
+    {
+      "rank": 3531,
+      "status": "Finished Airing",
+      "popularity": 464,
+      "request_cached": true,
+      "opening_themes": [
+        "\"D.M.C.\" by Rungran"
+      ],
+      "title": "Devil May Cry",
+      "mal_id": 1726,
+      "aired": {
+        "to": "2007-09-06T00:00:00+00:00",
+        "prop": {
+          "to": {
+            "month": 9,
+            "day": 6,
+            "year": 2007
+          },
+          "from": {
+            "month": 6,
+            "day": 14,
+            "year": 2007
+          }
+        },
+        "string": "Jun 14, 2007 to Sep 6, 2007",
+        "from": "2007-06-14T00:00:00+00:00"
+      },
+      "image_url": "https://cdn.myanimelist.net/images/anime/4/26417.jpg",
+      "scored_by": 130590,
+      "episodes": 12,
+      "score": 7.02,
+      "url": "https://myanimelist.net/anime/1726/Devil_May_Cry",
+      "genres": [
+        {
+          "name": "Action",
+          "mal_id": 1,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "name": "Demons",
+          "mal_id": 6,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/6/Demons"
+        },
+        {
+          "name": "Fantasy",
+          "mal_id": 10,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "broadcast": "Unknown",
+      "trailer_url": "https://www.youtube.com/embed/8B3ae9ovo0w?enablejsapi=1&wmode=opaque&autoplay=1",
+      "members": 237270,
+      "source": "Game",
+      "producers": [
+        {
+          "name": "WOWOW",
+          "mal_id": 33,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/33/WOWOW"
+        },
+        {
+          "name": "Media Factory",
+          "mal_id": 108,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/108/Media_Factory"
+        },
+        {
+          "name": "Capcom",
+          "mal_id": 240,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/240/Capcom"
+        },
+        {
+          "name": "Showgate",
+          "mal_id": 777,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/777/Showgate"
+        }
+      ],
+      "title_japanese": "\u30c7\u30d3\u30eb \u30e1\u30a4 \u30af\u30e9\u30a4",
+      "premiered": "Summer 2007",
+      "licensors": [
+        {
+          "name": "ADV Films",
+          "mal_id": 97,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/97/ADV_Films"
+        },
+        {
+          "name": "Funimation",
+          "mal_id": 102,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation"
+        }
+      ],
+      "favorites": 1625,
+      "synopsis": "Devil May Cry follows the story of the demon hunter known as Dante. As a half demon, half human, he uses his trusty sword Rebellion and his two guns Ebony and Ivory to take on missions. Dante owns and runs \"Devil May Cry,\" a business that specializes in hunting and killing demon-related problems. Based on the video game series \"Devil May Cry.\"",
+      "request_hash": "request:anime:030dd755e8a3aae82e8c87a352345884fb9b30fd",
+      "type": "TV",
+      "duration": "24 min per ep",
+      "studios": [
+        {
+          "name": "Madhouse",
+          "mal_id": 11,
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+        }
+      ],
+      "rating": "R - 17+ (violence & profanity)",
+      "title_english": "Devil May Cry",
+      "background": null,
+      "title_synonyms": [
+        "Devil May Cry: The Animated Series",
+        "DmC"
+      ],
+      "request_cache_expiry": 29084,
+      "related": {},
+      "ending_themes": [
+        "\"I'll be your home\" by Rin Oikawa"
+      ],
+      "airing": false
+    }
+  ]
+}
